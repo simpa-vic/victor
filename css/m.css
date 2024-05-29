@@ -336,10 +336,13 @@ button{
         flex-basis: 90% !important;
     }
     .mtd-d h1{
-        font-size: 2rem !important;
+        font-size: 1.3rem !important;
     }
     .mtd-d p{
         font-size: .88rem !important;
+    }
+    .mtd-d button{
+        font-size: .83rem;
     }
     p{
         font-size: .78rem !important;
@@ -369,7 +372,7 @@ button{
         justify-content: center;
     }
     .mtd_img img{
-        height: 400px;
+        height: 300px;
     }
     .mid-top{
         padding: 10px;
@@ -408,7 +411,7 @@ button{
         padding-left: 0 !important;
     }
     .body-skill-img img{
-        height: 300px;
+        height: 250px;
     }
     .tri{
         margin-bottom: 1.5rem;
@@ -416,9 +419,12 @@ button{
     .container{
         width: 100%;
         overflow:hidden;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .footer h1{
         font-size: 1rem;
+        margin-bottom: 1rem;
     }
     .footer li{
         font-size: .8rem;
