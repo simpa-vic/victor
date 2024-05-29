@@ -1,0 +1,42 @@
+.habout{
+    flex-basis: 60%;
+    width: 100%;
+}
+.habout p{
+    font-size: 1.2rem;
+    text-wrap: wrap;
+}
+.habout-1, .habout-2 {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 15px rgba(0, 20, 12, .3);
+}
+
+.habout-bio{
+    flex-basis: 60%;
+}
+#habout-tr{
+    text-align: left;
+}
+.habout-img{
+    flex-basis: 35%;
+    width: 100%;
+}
+.habout-img img{
+    width: 100%;
+}
+.habout h2{
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+.habout h1{
+    margin-bottom: 1rem;
+}
+.habout li{
+    margin-top: .7rem;
+}

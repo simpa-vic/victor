@@ -1,0 +1,33 @@
+.mattar .body{
+    padding-left: 10px;
+}
+.mattar{
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+.mattar p {
+    width: 90%;
+    background: rgba(182, 179, 179, .1);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+}
+.skillz{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.mattar h1{
+    margin-bottom: 1rem;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    background: rgb(31, 18, 109);
+    color: white;
+}
+.body-skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
