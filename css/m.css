@@ -302,7 +302,7 @@ button{
 }
 .footer-b{
     width: 80%;
-    height: 100%;
+    height:auto;
 }
 .footer-b-u{
     display: flex;
@@ -317,6 +317,8 @@ button{
     width: 100%;
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* ****************************************************************screen size ************************************************* */
@@ -388,7 +390,7 @@ button{
         justify-content: center;
     }
     .mtd_img img{
-        height: 300px;
+        height: 280px;
     }
     .mid-top{
         padding: 10px;
