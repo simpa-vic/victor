@@ -437,10 +437,8 @@ button{
     }
     .container{
         min-width: 100vw;
-        width: 100%;
-        height: auto;
-        padding-left: 2px;
-        padding-right: 2px;
+        width: 100vw;
+        min-height: 100%;
         overflow: hidden !important;
     }
     .footer h1{
