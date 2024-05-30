@@ -17,8 +17,9 @@ button{
 .container{
     top: 0;
     position: relative;
-    width:100%;
-    height: 100%;
+    width:100vw;
+    overflow: hidden;
+    height: auto;
 }
 .top{
     width: 100%;
@@ -26,7 +27,7 @@ button{
 }
 #header{
     position: absolute;
-    top: 7vh;
+    top: 5vh;
     right: 0;
     background: rgba(10, 2, 34, 0.9);
     color: white;
@@ -291,7 +292,6 @@ button{
 /* ************************************************* Banner Closer ********************************************************* */
 
 .footer{
-    height: 30vh;
     width: 100%;
     background: black;
     display: flex; 
@@ -390,7 +390,7 @@ button{
         justify-content: center;
     }
     .mtd_img img{
-        height: 280px;
+        height: 260px;
     }
     .mid-top{
         padding: 10px;
@@ -439,6 +439,9 @@ button{
         min-width: 100vw;
         width: 100%;
         height: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+        overflow: hidden !important;
     }
     .footer h1{
         font-size: 1rem;
