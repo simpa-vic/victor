@@ -30,7 +30,7 @@ button{
     right: 0;
     background: rgba(10, 2, 34, 0.9);
     color: white;
-    font-size: 1.3rem;
+    font-size: .9rem;
     z-index: 100;
     height: 100vh;
     text-align: center;
@@ -332,11 +332,24 @@ button{
         width: 0vw;
         transition: all .5s ease-in;
     }
+    .logo img{
+        width: 30px;
+    }
     .habout{
         flex-basis: 90% !important;
     }
+    .habout h1, .rupp h1 {
+        font-size: 1rem;
+    }
+    .habout-img{
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .habout img {
+        width: 250px !important;
+    }
     .mtd-d h1{
-        font-size: 1.3rem !important;
+        font-size: 1.08rem !important;
     }
     .mtd-d p{
         font-size: .88rem !important;
@@ -347,8 +360,11 @@ button{
     p{
         font-size: .78rem !important;
     }
-    h2{
-        font-size: 1.16rem;
+    h2, .rupp h2{
+        font-size: 1rem;
+    }
+    #banner-txt li{
+        font-size: .8rem;
     }
     #header ul{
         flex-basis: 80%;
@@ -378,7 +394,7 @@ button{
         padding: 10px;
     }
     .mtd-d{
-        width: 90%;
+        width: 95%;
     }
     #toggle{
         display: flex;
@@ -403,6 +419,7 @@ button{
     }
     .mattar h1{
         border-radius: 0 0 10px  10px !important;
+        font-size: 1rem;
     }
     .mattar{
         padding-left: 0 !important;
