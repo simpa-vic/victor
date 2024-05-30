@@ -434,8 +434,9 @@ button{
         margin-bottom: 1.5rem;
     }
     .container{
+        min-width: 100vw;
         width: 100%;
-        overflow:hidden;
+        height: auto;
         padding-left: 2px;
         padding-right: 2px;
     }
