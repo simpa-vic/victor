@@ -20,6 +20,8 @@ button{
     width:100vw;
     overflow: hidden;
     height: auto;
+    padding-right: 2px;
+    padding-left:2px;
 }
 .top{
     width: 100%;
